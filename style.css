@@ -2,33 +2,23 @@
 /* CSS Document */
 body{
   background-color: #1A0B08;
-  position: relative;
 }
-body::after {
-  conent: "";
-  background-image: url("images/bird.jpg");
-  backkground-size: cover;
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1; ;
-}
+
 box-sizing{border-box:#615843;
 }
-	
 .header {
   grid-area: header;
   background-color: #1A0B08;
   padding: 30px;
   text-align: center;
   position: relative;
+  width:100%;
+  
 }
 
 .header::before {
   content: "";
+  width:100%;
   background-image: url("images/creepytrees.jpg");
   background-size: cover;
   position: absolute;
@@ -118,6 +108,7 @@ nav a:active {
 
 .middle {
   grid-area: middle;
+  
 }
 
 .right {
