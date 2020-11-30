@@ -106,8 +106,6 @@ nav a:active {
 
 .left {
   grid-area: left;
-  border-bottom-color: #6E1722;
-  border-width: thick;
  
 }
 
