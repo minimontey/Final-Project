@@ -7,27 +7,6 @@ body{
 box-sizing{border-box:#615843;
 }
 
-.home{
-  background-color: #1A0B08;
-  padding: 30px;
-  text-align: center;
-  position: relative;
-}
-
-.home::before {
-  content: "";
-  width:100%;
-  background-image: url("images/bird.jpg");
-  background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.15;
-  z-index: 1;
-}
-
 .header {
   grid-area: header;
   background-color: #1A0B08;
@@ -127,7 +106,8 @@ nav a:active {
 
 .left {
   grid-area: left;
- 
+  border-bottom-color: #6E1722;
+  border-width: thick;
 }
 
 .middle {
