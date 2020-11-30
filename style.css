@@ -1,3 +1,159 @@
 @charset "utf-8";
 /* CSS Document */
+body{background-color:#1A0B08;
+	}
 
+box-sizing{border-box:#615843;
+	}
+
+.header {
+  grid-area: header;
+  background-color: black;
+  padding: 30px;
+  text-align: center;
+  font-family: neue-aachen-pro,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 84px;
+  color: #6E1722;
+  border-bottom: 2px;
+  border-bottom-color: #6E1722;
+}
+.header h3 {
+  grid-area: header;
+  position: relative;
+  z-index: 2;
+}
+.header:after{
+  grid-area: header;
+  position: absolute;
+  z-index: 1;
+  opacity: 0.5;
+  background-image: url("images/creepytrees.jpg");
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+nav{
+	width:100%;
+	text-align: center;
+	}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;	
+	}
+nav li{
+	/*makes navigation bar horizontal*/
+	display:inline;
+	}
+nav a:link {
+  /*use of web-font*/
+  font-size: 30px;
+  font-family: apertura,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#6E1722;
+  text-decoration: none;
+  margin-right: 30px;	
+	}
+nav a:visited {
+	color:#615843;
+	}
+nav a:hover {
+  color:#D3D3D3;
+	}
+
+nav a:active {
+  text-decoration: underline;
+	}
+
+.wrapper {
+  display: grid;
+  grid-template-areas: 
+    'header header header header header header' 
+    'left left middle middle right right' 
+	'.... ... form form .... ....'
+    'footer footer footer footer footer footer';
+} 
+
+.left,
+.middle,
+.right,
+.footer {
+  padding: 18px;
+  background-color: black;
+  text-align: center;
+  font-family: apertura,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#615843;
+}
+
+.left {
+  grid-area: left;
+ 
+}
+
+.middle {
+  grid-area: middle;
+}
+
+.right {
+  grid-area: right;
+}
+.form{
+  grid-area: form;
+  padding: 50px;
+  text-align: center;
+  background-color: black;
+  color: floralwhite;
+  font-family: neue-aachen-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 4px; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+}
+
+input[type=submit] {
+  background-color: floralwhite;
+  color: #272727;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: neue-aachen-pro,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+input[type=submit]:hover {
+  background-color: #D3D3D3;
+}
+
+.footer {
+  grid-area: footer;
+  font-size: 18px;
+}
+	
+@media (max-width: 600px) {
+  .wrapper  {
+    grid-template-areas: 
+      'header header header header header header' 
+      'left left left left left left' 
+      'middle middle middle middle middle middle' 
+      'right right right right right right'
+	  'form form form form form form'
+      'footer footer footer footer footer footer';
+  }
+}
