@@ -1,20 +1,33 @@
 @charset "utf-8";
 /* CSS Document */
-body{background-color:#1A0B08;
-	}
-
+body{
+  background-color: #1A0B08;
+  position: relative;
+}
+body::after {
+  conent: "";
+  background-image: url("images/bird.jpg");
+  backkground-size: cover;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; ;
+}
 box-sizing{border-box:#615843;
 }
 	
 .header {
   grid-area: header;
-  background-color: black;
+  background-color: #1A0B08;
   padding: 30px;
   text-align: center;
   position: relative;
 }
 
-.header::after {
+.header::before {
   content: "";
   background-image: url("images/creepytrees.jpg");
   background-size: cover;
@@ -91,7 +104,6 @@ nav a:active {
 .right,
 .footer {
   padding: 18px;
-  background-color: black;
   text-align: center;
   font-family: apertura,sans-serif;
   font-weight: 400;
@@ -149,6 +161,7 @@ input[type=submit]:hover {
 
 .footer {
   grid-area: footer;
+  background-color: #1A0B08;
   font-size: 18px;
 }
 	
