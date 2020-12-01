@@ -91,6 +91,24 @@ nav a:active {
     'footer footer footer footer footer footer';
 } 
 
+ul{
+  font-size: 18px;
+  font-family: apertura,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#615843;
+  text-align: left;
+}
+
+a:link {
+  color:#615843;
+  text-decoration: none;
+  margin-right: 30px;
+	}
+a:visited {
+	color:#6E1722;
+}
+
 .left,
 .middle,
 .right,
