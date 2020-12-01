@@ -79,7 +79,7 @@ nav a:link {
   margin-right: 30px;
 	}
 nav a:visited {
-	color:#6E1722;
+
 	}
 nav a:hover {
   color:#D3D3D3;
@@ -87,6 +87,7 @@ nav a:hover {
 
 nav a:active {
   text-decoration: underline;
+  color:#6E1722;
 	}
 
 .wrapper {
