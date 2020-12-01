@@ -40,7 +40,14 @@ h3 {
   font-size: 84px;
   z-index: 2;
 }
-
+h4 {
+  font-family: apertura,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #615843;
+  font-size: 22px;
+  z-index: 2;
+}
 img {
   width: 100%;
   height: auto;
