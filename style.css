@@ -188,7 +188,7 @@ input[type=submit]:hover {
 .footer {
   grid-area: footer;
   background-color: #1A0B08;
-  font-size: 12px;
+  font-size: 8px;
   text-align: center;
 }
 	
