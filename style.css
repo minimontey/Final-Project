@@ -18,8 +18,8 @@ box-sizing{border-box:#615843;
 
 .header img{
   float:left;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   margin-left: 40px;
 }
 
@@ -45,6 +45,8 @@ h3 {
   font-style: normal;
   color: #6E1722;
   font-size: 84px;
+  top: 18px;
+  left: 10px;
   z-index: 2;
 }
 h4 {
