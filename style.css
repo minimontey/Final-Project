@@ -16,6 +16,13 @@ box-sizing{border-box:#615843;
   width:100%;
 }
 
+.header img{
+  float:left;
+  width: 200px;
+  height: 200px;
+  margin-left: 40px;
+}
+
 .header::before {
   content: "";
   width:100%;
