@@ -7,7 +7,37 @@
 <title>Contact</title>
 </head>
 <link href="style.css" type="text/css" rel="stylesheet">
-
+<link rel="stylesheet" href="https://use.typekit.net/ohk7qce.css">
 <body>
+  <div class="wrapper">
+  <div class="header">
+    <h3>ALL THINGS SPOOKY</h3>
+	<nav><ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="stories.html">Stories</a></li>
+    <li><a href="resources.html">Resources</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+</ul></nav>
+  </div>
+  <div class="form">
+	<!-- form w/ 3 inputs -->
+	<h2>Have a movie suggestion?<br>Let me know down below!</h2>
+	<form action="action_page.php">
+
+    <label for="name">Name</label>
+    <input type="text" id="fname" name="name" placeholder="Your name...">
+	
+	<label for="email">E-mail Address</label>
+    <input type="text" id="email" name="E-Mail Address" placeholder="abc123@gmail.com">
+
+    <label for="movie">Movie Suggestion</label>
+    <textarea id="story" name="story" placeholder="Let Us Know Your Spooky Story!" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  	</form>
+  </div>
+  </div>
 </body>
 </html>

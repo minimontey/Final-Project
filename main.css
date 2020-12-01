@@ -40,14 +40,7 @@ h3 {
   font-size: 84px;
   z-index: 2;
 }
-h4 {
-  font-family: apertura,sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #615843;
-  font-size: 22px;
-  z-index: 2;
-}
+
 img {
   width: 100%;
   height: auto;
@@ -63,6 +56,7 @@ nav ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
+  text-align: center;
 	}
 nav li{
 	/*makes navigation bar horizontal*/
@@ -99,28 +93,18 @@ nav a:active {
     'footer footer footer footer footer footer';
 } 
 
-ul{
-  font-size: 18px;
-  font-family: apertura,sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color:#615843;
-}
-
-a:link {
-  color:#615843;
-  text-decoration: none;
-  margin-right: 30px;
-	}
-a:visited {
-	color:#6E1722;
-}
-
 .left,
 .middle,
-.right,
-.footer {
-  padding: 18px;
+.right {
+  padding: 50px;
+  border: 2px solid #6E1722;
+  box-sizing: border-box;
+  border-radius: 20px; 
+  margin-top: 20px; 
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
   font-family: apertura,sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -130,16 +114,17 @@ a:visited {
 
 .left {
   grid-area: left;
- 
+  
 }
 
 .middle {
   grid-area: middle;
-  
+
 }
 
 .right {
   grid-area: right;
+  
 }
 .form{
   grid-area: form;
@@ -180,6 +165,12 @@ input[type=submit]:hover {
   grid-area: footer;
   background-color: #1A0B08;
   font-size: 18px;
+  padding: 18px;
+  text-align: center;
+  font-family: apertura,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#615843;
 }
 	
 @media (max-width: 600px) {
