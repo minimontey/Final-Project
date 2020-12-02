@@ -63,43 +63,6 @@ img {
   height: auto;
 }
 
-.the-alamo,
-.click-alamo,
-.click-channel,
-.click-submit{
-  font-family: apertura,sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 32px;
-}
-.the-alamo{
-  position: absolute;
-  bottom: -280px;
-  left: 170px;
-  text-align: center;
-}
-
-.click-alamo{
-  position: absolute;
-  bottom: -320px;
-  left: 150px;
-  text-align: center;
-}
-
-.click-channel{
-  position: absolute;
-  bottom: -320px;
-  left: 836px;
-  text-align: center;
-}
-
-.click-submit{
-  position: absolute;
-  bottom: -320px;
-  right: -750px;
-  text-align: center; 
-}
-
 nav{
 	width:100%;
 	text-align: center;
@@ -162,8 +125,18 @@ a:link {
   margin-right: 30px;
 	}
 a:visited {
-	color:#6E1722;
+	color:#615843;
+	text-decoration: none;
 }
+
+a:active {
+  text-decoration: underline;
+  color:#615843;
+	}
+
+a:hover {
+  color:#D3D3D3;
+	}
 
 .left,
 .middle,
