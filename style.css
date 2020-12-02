@@ -10,18 +10,17 @@ box-sizing{border-box:#615843;
 .header {
   grid-area: header;
   background-color: #1A0B08;
-  padding: 30px;
   text-align: center;
   position: relative;
   width:100%;
-  height: 150px;
+  height: 180px;
   border-bottom: 2px solid #514635;
 }
 
 .header img{
   float:left;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   margin-left: 40px;
 }
 
@@ -64,12 +63,43 @@ img {
   height: auto;
 }
 
+.the-alamo,
+.click-alamo,
+.click-channel,
+.click-submit{
+  font-family: apertura,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+}
 .the-alamo{
   position: absolute;
-  bottom: -500px;
-  left: 150px;
-  
+  bottom: -280px;
+  left: 170px;
+  text-align: center;
 }
+
+.click-alamo{
+  position: absolute;
+  bottom: -320px;
+  left: 150px;
+  text-align: center;
+}
+
+.click-channel{
+  position: absolute;
+  bottom: -320px;
+  left: 836px;
+  text-align: center;
+}
+
+.click-submit{
+  position: absolute;
+  bottom: -320px;
+  right: -750px;
+  text-align: center; 
+}
+
 nav{
 	width:100%;
 	text-align: center;
@@ -162,6 +192,7 @@ a:visited {
 }
 .form{
   margin-top: 30px;
+  margin-bottom: 30px;
   margin-left: 150px;
   grid-area: form;
   padding: 10px;
