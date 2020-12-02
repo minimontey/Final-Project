@@ -18,6 +18,7 @@ box-sizing{border-box:#615843;
 }
 
 .header img{
+  grid-area: header;
   float:left;
   width: 100px;
   height: 100px;
@@ -25,6 +26,7 @@ box-sizing{border-box:#615843;
 }
 
 .header::before {
+  grid-area: header;
   content: "";
   width:100%;
   background-image: url("images/creepytrees.jpg");
@@ -40,6 +42,8 @@ box-sizing{border-box:#615843;
 
 
 h3 {
+  grid-area: header;
+  width: 100%;
   position: relative;
   font-family: apertura,sans-serif;
   font-weight: 300;
@@ -47,7 +51,7 @@ h3 {
   color: #6E1722;
   font-size: 84px;
   left: 10px;
-  margin-top: 12px;
+  top: -100px;
   z-index: 2;
 }
 h4 {
@@ -55,7 +59,7 @@ h4 {
   font-weight: 400;
   font-style: normal;
   color: #615843;
-  font-size: 22px;
+  font-size: 28px;
   z-index: 2;
 }
 img {
@@ -64,10 +68,11 @@ img {
 }
 
 nav{
+	grid-area: header;
 	width:100%;
 	text-align: center;
 	position: relative;
-	margin-top: -75px;
+	top: -150px;
 	z-index: 3;
 	}
 
@@ -166,7 +171,6 @@ a:hover {
 .form{
   margin-top: 30px;
   margin-bottom: 30px;
-  margin-left: 150px;
   grid-area: form;
   padding: 10px;
   text-align: center;
