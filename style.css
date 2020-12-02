@@ -151,6 +151,8 @@ a:visited {
   grid-area: right;
 }
 .form{
+  margin-top: 30px;
+  margin-left: 200px;
   grid-area: form;
   padding: 10px;
   text-align: center;
