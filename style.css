@@ -32,8 +32,8 @@ box-sizing{border-box:#615843;
 .header img{
   grid-area: header;
   float:left;
-  width: 125px;
-  height: 125px;
+  width: 100px;
+  height: 100px;
   position: relative;
   left: 30px;
   top: -5px;
@@ -62,17 +62,18 @@ box-sizing{border-box:#615843;
 }
 
 h3 {
-  grid-area: header;
-  position: relative;
+  position: absolute;
   font-family: apertura,sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #6E1722;
-  font-size: 60px;
-  top: -10px;
+  font-size: 52px;
+  right: 20px;
+  top: 30px;
   text-align: center;
+  align: center;
+  display: inline-block;
   width: 100%;
-  display:inline;
 }
 h4 {
   font-family: apertura,sans-serif;
@@ -91,6 +92,7 @@ nav{
 	grid-area: header;
 	width:100%;
 	text-align: center;
+	align: center;
 	position: absolute;
 	top: 145px;
 	z-index: 2;
