@@ -58,7 +58,7 @@ h3 {
   color: #6E1722;
   font-size: 52px;
   right: 20px;
-  top: 30px;
+  top: 40px;
   text-align: center;
   align: center;
   display: inline-block;
@@ -238,16 +238,7 @@ input[type=submit]:hover {
 }
 	
 @media screen and (max-width : 600px ){
-  .wrapper  {
-    grid-template-areas: 
-      'header header header' 
-	  'header header header' 
-      'left left left' 
-	  'left left left' 
-      'middle middle middle' 
-	  'middle middle middle' 
-      'right right right right right right'
-	  'form form form form form form'
-      'footer footer footer footer footer footer';
-	}
+	.wrapper{
+   max-width: 100%;
+}
 }
