@@ -1,14 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
-html{
-	
-}
+
 
 body{
   background-color: #1A0B08;
-  margin: 0;
-  padding: 0;
 }
 
 box-sizing{
@@ -16,30 +12,24 @@ box-sizing{
 }
 
 .header {
-  grid-area: header;
   text-align: center;
   position: relative;
-  width:100%;
   height: 200px;
   border-bottom: 2px solid #514635;
-  left:0;
-  right:0;
+ 
 }
 
 .header img{
-  grid-area: header;
   float:left;
   width: 100px;
   height: 100px;
   position: relative;
   left: 30px;
-  top: -5px;
-  display:inline;
+  top: 10px;
 }
 
 .header::before {
   content: "";
-  width:100%;
   background-image: url("images/creepytrees.jpg");
   background-size: cover;
   position: absolute;
@@ -51,20 +41,13 @@ box-sizing{
   z-index: 1;
 }
 
-h3 {
-  position: absolute;
+h1 {
   font-family: apertura,sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
   color: #6E1722;
-  font-size: 52px;
-  right: 20px;
-  top: 40px;
   text-align: center;
-  align: center;
-  display: inline-block;
-  z-index: 2;
-  width: 100%;
+  font-size: 50px;
 }
 h4 {
   font-family: apertura,sans-serif;
@@ -80,32 +63,22 @@ img {
 }
 
 nav{
-	grid-area: header;
-	width:100%;
+	overflow: hidden;
 	text-align: center;
-	align: center;
-	position: absolute;
-	top: 155px;
-	z-index: 3;
+	border-bottom: 2px solid #514635;
 	}
 
-nav ul{
-	  list-style-type: none;
-	  margin: 0;
-	  padding: 0;
-	}
-nav li{
-	/*makes navigation bar horizontal*/
-	display:inline;
-	}
 nav a:link {
   /*use of web-font*/
   font-size: 25px;
   font-family: apertura,sans-serif;
   font-weight: 400;
   font-style: normal;
+  text-align: center;
   color:#615843;
+  display: block;
   text-decoration: none;
+  
 	}
 nav a:visited {
 
@@ -119,15 +92,32 @@ nav a:active {
   color:#6E1722;
 	}
 
-.wrapper {
-  display: grid;
-  grid-template-areas: 
-    'header header header header header header' 
-    'left left middle middle right right' 
-	'.... ... form form .... ....'
-    'footer footer footer footer footer footer';
-} 
-
+/* create three equal columns that float next to each other*/
+.column{
+	text-align: center;
+	font-size: 22px;
+	font-family: apertura,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color:#615843;
+}
+ 
+/* clear float after the columns*/
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.footer{
+	padding:10px;
+	text-align: center;
+	font-size: 10px;
+	font-family: apertura,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color:#615843;
+	border-top: 2px solid #514635;
+}
 ul{
   font-size: 18px;
   font-family: apertura,sans-serif;
@@ -155,31 +145,6 @@ a:hover {
   color:#D3D3D3;
 	}
 
-.left,
-.middle,
-.right,
-.footer {
-  padding: 18px;
-  font-family: apertura,sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color:#615843;
-  z-index: 2;
-}
-
-.left {
-  grid-area: left;
- 
-}
-
-.middle {
-  grid-area: middle;
-  
-}
-
-.right {
-  grid-area: right;
-}
 .form{
   padding: 10px;
   color: #312D21;
@@ -226,24 +191,12 @@ input[type=submit]:hover {
   background-color: #D3D3D3;
 }
 
-.footer {
-  border-top: 2px solid #514635;
-  grid-area: footer;
-  background-color: #1A0B08;
-  font-size: 10px;
-  text-align: center;
-  position: relative;
-  padding: 15px;
-  bottom: -40px;
-  
-}
 	
-@media only screen and (max-width : 600px ){
-  .wrapper,
-  .header,
-  .left,
-  .middle,
-  .right {
+@media screen and (max-width : 600px ){
+  
+ .column.left,
+  .column.middle,
+  .column.right {
    	width: 100%;
 }
 }
