@@ -200,6 +200,7 @@ a:hover {
   border-radius: 15px;
   background-color: #312D21;
   width: 400px;
+
 }
 input[type=text], select, textarea {
   width: 100%; 
@@ -240,6 +241,8 @@ input[type=submit]:hover {
   font-size: 10px;
   text-align: center;
   position: relative;
+  padding: 15px;
+  bottom: -40px;
   
 }
 	
