@@ -11,7 +11,8 @@ body{
   padding: 0;
 }
 
-box-sizing{border-box:#615843;
+box-sizing{
+	border-box:#615843;
 }
 
 .header {
@@ -237,8 +238,12 @@ input[type=submit]:hover {
   
 }
 	
-@media only screen and (max-width : 600px ){
-  .wrapper{
-   width: 100%;
+@media only screen and (max-width : 400px ){
+  .wrapper,
+  .header,
+  .left,
+  .middle,
+  .right {
+   	width: 100%;
 }
 }
