@@ -7,18 +7,19 @@
 <title>Contact</title>
 <style>
 
-	.middle{
-		padding: 50px;
-		margin-top: 20px;
-	}
+	.column.left{
+    float: left;
+    text-align: center;
+	width: 50%;
+	margin-top: 30px;
+	postion: relative;
+    margin-bottom: 30px;
+	} 
 
-	.right{
-		padding-left: 25px;
-		top: 10px;
-		text-align: center;
-		margin-right: 32px;
-		position: relative;
-		right: 30px; 
+	.column.right{
+	float: left;
+	width: 50%;
+    margin-top: 30px;
 	}
 	</style>
 </head>
@@ -26,20 +27,21 @@
 <link rel="stylesheet" href="https://use.typekit.net/ohk7qce.css">
 <link rel="shortcut icon" type="image/x-icon" href="images/allthingspookylogo.png" />
 <body>
-<div class="wrapper">
-  <div class="header">
+<div class="header">
 	<img src="images/allthingspookylogo.png" alt="logo"/>
-	<br>
-    <h3>ALL THINGS SPOOKY</h3>
-	<nav><ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="stories.html">Stories</a></li>
-    <li><a href="resources.html">Resources</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="contact.html">Contact</a></li>
-</ul></nav>
-  </div>
-	<div class="middle">
+	<br><br><br><br>
+	  <h1>ALL THINGS SPOOKY</h1>
+	
+	<div class="nav">
+		<a href="index.html">Home</a>
+		<a href="stories.html">Stories</a>
+		<a href="resources.html">Resources</a>
+		<a href="about.html">About</a>
+		<a href="contact.html">Contact</a>
+	</div>
+	  </div>
+  <div class="row">
+	<div class="column left">
 	<div class="form">
 	<form action="action_page.php">
 
@@ -57,7 +59,7 @@
   	</form>
 	</div>
 	</div>
-	<div class="right">
+	<div class="column right">
 		<h4>Have a spooky story to tell?<br>
 		  Send in your story through<br>
 		  our submission box!<br>
@@ -65,9 +67,10 @@
 		  We are looking forward<br>
 		  to hearing from you!</h4>
 	</div>
+	</div>
 <div class="footer"> 
 	  <p>© COPYRIGHT ALL THINGS SPOOKY 2020. ALL RIGHTS RESERVED</p>
 	  </div>
-	  </div>
+	  
 	</body>
 </html>

@@ -16,6 +16,7 @@ box-sizing{
   position: relative;
   height: 220px;
   border-bottom: 2px solid #514635;
+  max-width: 100%;
  
 }
 
