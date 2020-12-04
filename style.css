@@ -8,12 +8,10 @@ body{
 }
 
 box-sizing{
-	border-box:#615843;
 }
 
 .header {
   text-align: center;
-  position: relative;
   height: 220px;
   border-bottom: 2px solid #514635;
   max-width: 100%;
@@ -24,9 +22,6 @@ box-sizing{
   float:left;
   width: 100px;
   height: 100px;
-  position: relative;
-  left: 30px;
-  top: 10px;
 }
 
 .header::before {
@@ -39,7 +34,7 @@ box-sizing{
   bottom: 0px;
   left: 0px;
   opacity: 0.15;
-  z-index: 1;
+  z-index: -1;
 }
 
 h1 {
@@ -49,7 +44,6 @@ h1 {
   color: #6E1722;
   text-align: center;
   font-size: 50px;
-  z-index: 3;
 }
 h4 {
   font-family: apertura,sans-serif;
@@ -57,7 +51,6 @@ h4 {
   font-style: normal;
   color: #615843;
   font-size: 28px;
-  z-index: 2;
 }
 img {
   width: 100%;
@@ -67,7 +60,6 @@ img {
 nav{
 	overflow: hidden;
 	text-align: center;
-	border-bottom: 2px solid #514635;
 	}
 
 nav a:link {
