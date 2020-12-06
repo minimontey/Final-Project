@@ -14,7 +14,7 @@ box-sizing{
 
 .header {
   text-align: center;
-  height: 120px;
+  height: 134px;
   border-bottom: 2px solid #514635;
   max-width: 100%;
  
@@ -24,7 +24,7 @@ box-sizing{
   text-align: center;
   width: 100px;
   height: 100px;
-  margin-top: .5%;
+  margin-top: 1%;
   margin-bottom: .5%;
 }
 
@@ -39,7 +39,7 @@ box-sizing{
   left: 0px;
   opacity: 0.15;
   z-index: -1;
-  height: 120px;
+  height: 134px;
 }
 
 h4 {
@@ -84,46 +84,6 @@ nav a:active {
 	}
 .nav .icon {
   display: none;
-}
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown{
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: #6E1722;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #615843;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: #6E1722;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #D3D3D3;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
 }
 
 /* create three equal columns that float next to each other*/
@@ -241,7 +201,7 @@ input[type=submit]:hover {
     display: block;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
   .nav.responsive {position: relative;}
   .nav.responsive a.icon {
     position: absolute;
