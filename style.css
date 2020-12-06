@@ -20,7 +20,7 @@ box-sizing{
 }
 
 .header img{
-  float:left;
+  text-align: center;
   width: 100px;
   height: 100px;
 }
@@ -140,15 +140,14 @@ a:hover {
 
 .form{
   padding: 10px;
-  color: #312D21;
+  color: #1A0B08;
   font-family: apertura,sans-serif;
   font-weight: 400;
   font-style: normal;
   border: 3px solid #6E1722;
   border-radius: 15px;
   background-color: #312D21;
-  width: 60%;
-  text-align: center;
+  text-align: left;
 
 }
 input[type=text], select, textarea {
@@ -177,7 +176,6 @@ input[type=submit] {
   font-family: apertura,sans-serif;
   font-weight: 400;
   font-style: normal;
-
 }
 
 input[type=submit]:hover {

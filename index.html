@@ -5,31 +5,46 @@
 	  name="viewport" 
 	  content="width=device-width, initial-scale=1.0">
 <title>Home</title>
+
+<link href="style.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.typekit.net/ohk7qce.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" type="image/x-icon" href="images/allthingspookylogo.png" />
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( document ).tooltip();
+  } );
+  </script>
 	<style>
 	.column{
-    border: 3px solid #6E1722;
-    border-radius: 15px;
-	position: relative;
     top: 40px;
+	border: none;
 	padding: 40px;
-	margin-bottom: 100px; 
 	overflow: hidden;
 	height: 500px;
 	width: 33.33%;
 	float: left;
 		}
 		
+	label {
+    display: inline-block;
+    width: 5em;
+  		}
+	p {
+	font-family: apertura,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color:#615843;
+	}	
 	</style>
 </head>
-<link href="style.css" type="text/css" rel="stylesheet">
-<link rel="stylesheet" href="https://use.typekit.net/ohk7qce.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="shortcut icon" type="image/x-icon" href="images/allthingspookylogo.png" />
 <body>
   
   <div class="header">
 	<img src="images/allthingspookylogo.png" alt="logo"/>
-	  <br><br><br><br>
 	  <div class="nav" id="topnav">
 		<a href="index.html">Home</a>
 		<a href="stories.html">Stories</a>
@@ -63,7 +78,10 @@
 		  <p><b>CLICK HERE TO SUBMIT</b></p>
 	  </a>
   </div>
-  </div>
+  </div> 
+		<p><b>Survey:</b><p>
+		<p><label for="age">Your age:</label><input id="age" title="We ask for your age only for statistical purposes."></p>
+		<p>Thank you for participting in the survey</p>
 	<div class="footer"> 
   <p>© COPYRIGHT ALL THINGS SPOOKY 2020. ALL RIGHTS RESERVED</p>
   </div>
