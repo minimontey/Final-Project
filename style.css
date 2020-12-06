@@ -5,6 +5,7 @@
 
 body{
   background-color: #1A0B08;
+  margin: 0;
 }
 
 box-sizing{
@@ -36,7 +37,7 @@ box-sizing{
   left: 0px;
   opacity: 0.15;
   z-index: -1;
-  height: 128px;
+  height: 120px;
 }
 
 h4 {
