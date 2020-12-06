@@ -142,7 +142,7 @@ a:hover {
 
 .form{
   padding: 10px;
-  color: #1A0B08;
+  color: #615843;
   font-family: apertura,sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -150,6 +150,7 @@ a:hover {
   border-radius: 15px;
   background-color: #312D21;
   text-align: left;
+  width: 500px;
 
 }
 input[type=text], select, textarea {
