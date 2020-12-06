@@ -14,7 +14,7 @@ box-sizing{
 
 .header {
   text-align: center;
-  height: 134px;
+  height: 145px;
   border-bottom: 2px solid #514635;
   max-width: 100%;
  
@@ -39,7 +39,7 @@ box-sizing{
   left: 0px;
   opacity: 0.15;
   z-index: -1;
-  height: 134px;
+  height: 145px;
 }
 
 h4 {
@@ -198,6 +198,7 @@ input[type=submit]:hover {
     .nav a:not(:first-child) {display: none;}
 	.nav a.icon {
     float: right;
+	text-align: center;
     display: block;
   }
 }
