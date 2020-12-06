@@ -14,7 +14,7 @@ box-sizing{
 
 .header {
   text-align: center;
-  height: 145px;
+  height: 150px;
   border-bottom: 2px solid #514635;
   max-width: 100%;
  
@@ -39,7 +39,7 @@ box-sizing{
   left: 0px;
   opacity: 0.15;
   z-index: -1;
-  height: 145px;
+  height: 150px;
 }
 
 h4 {
